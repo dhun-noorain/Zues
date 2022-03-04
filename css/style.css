@@ -1,0 +1,76 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#banner {
+  background-image: linear-gradient(to left,rgba(0,0,0, 0.25), rgba(0,0,0, .5)) ,url(../img/display.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  #banner {
+    min-height: 50vh;
+  };
+}
+
+@media screen and (max-width: 170px) {
+  #banner {
+    margin-top: 5.5rem!important;
+  }
+}
+
+#banner h1 {
+  font-family: 'Akaya';
+}
+
+#img-display .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#services figure h3 {
+  margin-top: .5rem;
+}
+
+#reservation {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)), url(../img/display.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#reservation .card header {
+  font-size: 1.5rem;
+  font-family: Roboto;
+}
+
+/* #contact {
+  background-image: url(../img/display\ .jpg), linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.45));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+#footer table td a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+#footer table td a:hover {
+  color: rgb(224, 221, 221);
+  font-size: 1.05rem;
+}
+
+/* media queries */
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 100%!important;
+  }
+}
